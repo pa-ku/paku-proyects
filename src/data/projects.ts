@@ -16,11 +16,29 @@ export const categories: { key: Category | 'all'; label: string }[] = [
 ]
 
 export const projects: Project[] = [
+   {
+    name: 'Font Shrink',
+    description: 'Herramienta para quitar caracteres de fuentes y hacerlas más ligeras',
+    category: 'programacion',
+    url: 'https://fontshrink.paku.com.ar/',
+  },
+   {
+    name: 'Next PSeInt',
+    description: 'IDE online y desktop de PSeInt',
+    category: 'programacion',
+    url: 'https://pseint.paku.com.ar/',
+  },
   {
-    name: 'PokeChess',
-    description: 'Juego de autochess con temática Pokémon',
-    category: 'juegos',
-    url: 'https://pokechess.paku.com.ar/',
+    name: 'Next Python',
+    description: 'IDE online y desktop de Python',
+    category: 'programacion',
+    url: 'https://python.paku.com.ar/',
+  },
+   {
+    name: 'SiderAI',
+    description: 'Análisis de carta astral con inteligencia artificial',
+    category: 'ai',
+    url: 'https://siderai.paku.com.ar/',
   },
 /*   {
     name: 'Mapukimun',
@@ -28,12 +46,7 @@ export const projects: Project[] = [
     category: 'otros',
     url: '#',
   }, */
-  {
-    name: 'SiderAI',
-    description: 'Análisis de carta astral con inteligencia artificial',
-    category: 'ai',
-    url: 'https://siderai.paku.com.ar/',
-  },
+
   {
     name: 'Matatena',
     description: 'Juego de matatena clásico',
@@ -53,27 +66,15 @@ export const projects: Project[] = [
     url: 'https://layouts.paku.com.ar/',
   },
   {
-    name: 'ShrinkFont',
-    description: 'Herramienta para quitar caracteres de fuentes y hacerlas más ligeras',
-    category: 'programacion',
-    url: 'https://shrinkfont.paku.com.ar/',
+    name: 'Poke Chess',
+    description: 'Juego de autochess con temática Pokémon',
+    category: 'juegos',
+    url: 'https://pokechess.paku.com.ar/',
   },
   {
-    name: 'NextPSeInt',
-    description: 'IDE online y desktop de PSeInt',
-    category: 'programacion',
-    url: 'https://pseint.paku.com.ar/',
-  },
-  {
-    name: 'NextPython',
-    description: 'IDE online y desktop de Python',
-    category: 'programacion',
-    url: 'https://python.paku.com.ar/',
-  },
-  {
-    name: 'NextPython',
-    description: 'IDE online y desktop de Python',
-    category: 'programacion',
+    name: 'Mosquetutti',
+    description: 'Juego de tuttiFrutti online',
+    category: 'juegos',
     url: 'https://mosquetutti.paku.com.ar/',
   },
 /*   {
