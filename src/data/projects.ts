@@ -22,12 +22,12 @@ export const projects: Project[] = [
     category: 'juegos',
     url: 'https://pokechess.paku.com.ar/',
   },
-  {
+/*   {
     name: 'Mapukimun',
     description: 'App de flora y fauna nativa',
     category: 'otros',
     url: '#',
-  },
+  }, */
   {
     name: 'SiderAI',
     description: 'Análisis de carta astral con inteligencia artificial',
@@ -71,9 +71,15 @@ export const projects: Project[] = [
     url: 'https://python.paku.com.ar/',
   },
   {
+    name: 'NextPython',
+    description: 'IDE online y desktop de Python',
+    category: 'programacion',
+    url: 'https://mosquetutti.paku.com.ar/',
+  },
+/*   {
     name: 'Generala',
     description: 'Juego de Generala digital',
     category: 'juegos',
     url: 'https://generala.paku.com.ar/',
-  },
+  }, */
 ]
